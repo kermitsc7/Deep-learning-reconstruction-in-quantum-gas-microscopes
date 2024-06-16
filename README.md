@@ -43,7 +43,11 @@ sigma_object_pixels = sigma_theorical / pixel_size_nm
 ```
 
 ## Use
+In order to train the model based on real data, what you first need is to calculate the Point Spreed Function together with the calculation of the optical network, with their respective notebooks. Once executed, the outputs must be saved in numpy files, to be able to use them later in the ``train`` file.
 
+Run the ``train`` notebook, modifying the measurement values ​​of the images as needed, in addition to execution epochs.
+
+Finally, from the saved model, pass it through the ``evaluation`` file to see the behavior of the model.
 
 
 
